@@ -125,7 +125,7 @@ function page () {
   boxTweetTextArea.addEventListener('keypress', colorChange);
 
 
-  /*
+  
 
   var autosize = function (){
        var size = this;
@@ -136,22 +136,5 @@ function page () {
          0);
      }
      boxTweetTextArea.addEventListener('keydown', autosize);
-     */
-
-/*
-
-     function autosize(){
-       var size = this;
-       setTimeout(function(){
-         size.style.overflow = 'hidden';
-         size.style.height = 0;
-         size.style.height = size.scrollHeight + 'px';},
-         0);
-     }
-     boxTweetTextArea.addEventListener('keydown', autosize);
-*/
-
-// usando moment
-
-
+     
 }

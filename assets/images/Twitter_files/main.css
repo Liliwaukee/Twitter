@@ -1,0 +1,73 @@
+body {
+  background-color: #F5F8FA;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+/*background-image: url("../assets/images/twitter-background.png");*/
+}
+
+#nav {
+  background-image: url("../assets/images/twitter-nav.png");
+  background-position: center right;
+  height: 180px;
+  width: 100%;
+}
+
+.header-Title {
+  color: white;
+  font-size: 43px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 60px 0 0 0;
+  text-align: center;
+}
+
+.header-nav-logo {
+  float: left;
+  height: 40px;
+  margin: 25px 0 0 25px;
+}
+
+
+#personal-data {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  height: 200px;
+  margin: 15px 2% 0 8%;
+  padding: 20px 20px;
+  width: 40%;
+}
+
+#box-tweet {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  display: inline-block;
+  height: 200px;
+  margin-top: 15px;
+  padding: 14px 20px;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-tweet-text-area {
+  border: none;
+  font-size: 15px;
+  resize: none;
+}
+
+.box-tweet-text-area:focus {
+  outline: none;
+}
+
+.box-tweet-text-input {
+  background-color: #74CAF6;
+  color: white;
+  height: 35px;
+  width: 85px;
+}
+
+.box-tweet-text-input:focus {
+  outline: none;
+}
